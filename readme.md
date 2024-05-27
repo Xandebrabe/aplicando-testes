@@ -19,24 +19,26 @@ Resultado Esperado: 0°C
 
 Código: 
 
-`[InlineData(32, 0)]
+```[InlineData(32, 0)]
 public void TestarConversaoTemperatura(double fahrenheit, double celsius)
 {
     double valorCalculado = ConversorTemperatura.FahrenheitParaCelsius(fahrenheit);
     Assert.Equal(celsius, valorCalculado);
 }`
+```
 
 - Teste valor randômico:
 
 Cenário: Convertendo 90.5°F para Celsius.
 Resultado Esperado: 32.5°C
 
-`[InlineData(90.5, 32.5)]
+```[InlineData(90.5, 32.5)]
 public void TestarConversaoTemperatura(double fahrenheit, double celsius)
 {
     double valorCalculado = ConversorTemperatura.FahrenheitParaCelsius(fahrenheit);
     Assert.Equal(celsius, valorCalculado);
-}`
+}
+```
 
 ### Testes MSTest
 #### Descrição
@@ -52,26 +54,28 @@ MSTest é um framework de teste suportado pela Microsoft e totalmente integrado 
 Cenário: Convertendo 32°F para Celsius.
 Resultado Esperado: 0°C
 
-`[DataRow(32, 0)]
+```[DataRow(32, 0)]
 [DataTestMethod]
 public void TesteConversaoTemperatura(double tempFahrenheit, double tempCelsius)
 {
     double valorCalculado = ConversorTemperatura.FahrenheitParaCelsius(tempFahrenheit);
     Assert.AreEqual(tempCelsius, valorCalculado);
-}`
+}
+```
 
 - Teste valor randômico:
 
 Cenário: Convertendo 90.5°F para Celsius.
 Resultado Esperado: 32.5°C
 
-`[DataRow(90.5, 32.5)]
+```[DataRow(90.5, 32.5)]
 [DataTestMethod]
 public void TesteConversaoTemperatura(double tempFahrenheit, double tempCelsius)
 {
     double valorCalculado = ConversorTemperatura.FahrenheitParaCelsius(tempFahrenheit);
     Assert.AreEqual(tempCelsius, valorCalculado);
-}`
+}
+```
 
 ### Testes NUnit
 #### Descrição
@@ -87,21 +91,23 @@ NUnit é um framework de teste amplamente utilizado para aplicações .NET. Ele 
 Cenário: Convertendo 32°F para Celsius.
 Resultado Esperado: 0°C
 
-`[TestCase(32, 0)]
+```[TestCase(32, 0)]
 public void TesteConversaoTemperatura(double tempFahrenheit, double tempCelsius)
 {
     double valorCalculado = ConversorTemperatura.FahrenheitParaCelsius(tempFahrenheit);
     Assert.AreEqual(tempCelsius, valorCalculado);
-}` 
+}
+``` 
 
 - Teste valor randômico:
 
 Cenário: Convertendo 90.5°F para Celsius.
 Resultado Esperado: 32.5°C
 
-`[TestCase(90.5, 32.5)]
+```[TestCase(90.5, 32.5)]
 public void TesteConversaoTemperatura(double tempFahrenheit, double tempCelsius)
 {
     double valorCalculado = ConversorTemperatura.FahrenheitParaCelsius(tempFahrenheit);
     Assert.AreEqual(tempCelsius, valorCalculado);
-}`
+}
+```
