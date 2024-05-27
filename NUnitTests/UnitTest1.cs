@@ -1,6 +1,6 @@
 using NUnit.Framework;
 
-namespace Temperatura
+namespace Temperatura.Testes
 {
     public class TestesConversorTemperatura
     {
@@ -15,7 +15,7 @@ namespace Temperatura
         {
             double valorCalculado =
                 ConversorTemperatura.FahrenheitParaCelsius(tempFahrenheit);
-                Assert.AreEqual(tempCelsius, valorCalculado);
+            Assert.AreEqual(tempCelsius, valorCalculado);
         }
     }
 }

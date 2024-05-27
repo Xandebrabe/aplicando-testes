@@ -1,15 +1,11 @@
-C:\aplicando-testes\NUnitTests\bin\Debug\net8.0\CoverletSourceRootsMapping_NUnitTests
 C:\aplicando-testes\NUnitTests\bin\Debug\net8.0\testhost.dll
 C:\aplicando-testes\NUnitTests\bin\Debug\net8.0\Temperatura.deps.json
 C:\aplicando-testes\NUnitTests\bin\Debug\net8.0\Temperatura.runtimeconfig.json
 C:\aplicando-testes\NUnitTests\bin\Debug\net8.0\Temperatura.exe
-C:\aplicando-testes\NUnitTests\bin\Debug\net8.0\testhost.exe
 C:\aplicando-testes\NUnitTests\bin\Debug\net8.0\NUnit3.TestAdapter.dll
 C:\aplicando-testes\NUnitTests\bin\Debug\net8.0\NUnit3.TestAdapter.pdb
 C:\aplicando-testes\NUnitTests\bin\Debug\net8.0\nunit.engine.dll
 C:\aplicando-testes\NUnitTests\bin\Debug\net8.0\nunit.engine.api.dll
-C:\aplicando-testes\NUnitTests\bin\Debug\net8.0\nunit.engine.core.dll
-C:\aplicando-testes\NUnitTests\bin\Debug\net8.0\testcentric.engine.metadata.dll
 C:\aplicando-testes\NUnitTests\bin\Debug\net8.0\NUnitTests.deps.json
 C:\aplicando-testes\NUnitTests\bin\Debug\net8.0\NUnitTests.runtimeconfig.json
 C:\aplicando-testes\NUnitTests\bin\Debug\net8.0\NUnitTests.dll
@@ -25,7 +21,6 @@ C:\aplicando-testes\NUnitTests\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatf
 C:\aplicando-testes\NUnitTests\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\aplicando-testes\NUnitTests\bin\Debug\net8.0\NuGet.Frameworks.dll
 C:\aplicando-testes\NUnitTests\bin\Debug\net8.0\nunit.framework.dll
-C:\aplicando-testes\NUnitTests\bin\Debug\net8.0\nunit.framework.legacy.dll
 C:\aplicando-testes\NUnitTests\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 C:\aplicando-testes\NUnitTests\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
 C:\aplicando-testes\NUnitTests\bin\Debug\net8.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
@@ -105,3 +100,7 @@ C:\aplicando-testes\NUnitTests\obj\Debug\net8.0\refint\NUnitTests.dll
 C:\aplicando-testes\NUnitTests\obj\Debug\net8.0\NUnitTests.pdb
 C:\aplicando-testes\NUnitTests\obj\Debug\net8.0\NUnitTests.genruntimeconfig.cache
 C:\aplicando-testes\NUnitTests\obj\Debug\net8.0\ref\NUnitTests.dll
+C:\aplicando-testes\NUnitTests\bin\Debug\net8.0\CoverletSourceRootsMapping_NUnitTests
+C:\aplicando-testes\NUnitTests\bin\Debug\net8.0\testhost.exe
+C:\aplicando-testes\NUnitTests\bin\Debug\net8.0\nunit.engine.core.dll
+C:\aplicando-testes\NUnitTests\bin\Debug\net8.0\testcentric.engine.metadata.dll
