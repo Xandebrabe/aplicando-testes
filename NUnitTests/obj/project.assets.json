@@ -356,6 +356,16 @@
             "related": ".xml"
           }
         }
+      },
+      "Temperatura/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Temperatura.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Temperatura.dll": {}
+        }
       }
     }
   },
@@ -805,6 +815,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Temperatura/1.0.0": {
+      "type": "project",
+      "path": "../Temperatura/Temperatura.csproj",
+      "msbuildProject": "../Temperatura/Temperatura.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -813,6 +828,7 @@
       "NUnit >= 4.1.0",
       "NUnit.Analyzers >= 3.9.0",
       "NUnit3TestAdapter >= 4.5.0",
+      "Temperatura >= 1.0.0",
       "coverlet.collector >= 6.0.0"
     ]
   },
@@ -842,7 +858,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\aplicando-testes\\Temperatura\\Temperatura.csproj": {
+              "projectPath": "C:\\aplicando-testes\\Temperatura\\Temperatura.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
